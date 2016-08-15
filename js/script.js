@@ -52,8 +52,30 @@
 //   })
 // })
 
+function openHome () {
+$('#js-slogan').show();
+  $('#js-family').show();
+
+  $('#js-slogan').text('Made Strong')
+  $('#js-familyReunionInfo').html('32nd Kurtz Family Reunion<br>' +
+    'Kasper Pavilian<br>' +
+    'July 21st 2017');
+}
+
+function openOurStory () {
+  $('#js-slogan').show();
+  $('#js-family').show();
+
+  $('#js-slogan').text('Our Story')
+  $('#js-familyReunionInfo').html('<p>Our Kurtz Family tree began with Joseph Kurtz in 1859 with 9 children. Joseph, Person2,... 32 Reunions strong Kurtz is still going strong and sharing the love.  Every year we get back together to do it again and get back to our roots...</p>');
+}
+
 function openPhotos () {
   console.log('open!') 
+  $('#js-slogan').show();
+  $('#js-family').show();
+
+  $('#js-slogan').text('Photos')
   // viewYear(2015)
   $('#js-familyReunionInfo').html('<p class="yearchoice" onclick="viewYear(2016)">2016</p>' +
       '<p class="yearchoice" onclick="viewYear(2015)">2015</p>' +
@@ -62,21 +84,25 @@ function openPhotos () {
       '<p class="yearchoice" onclick="viewYear(2012)">2012</p>' +
       '<p class="yearchoice" onclick="viewYear(1)">All</p>')
 
-  $('html, body').animate({scrollTop:270}, 'fast')
+  // $('html, body').animate({scrollTop:270}, 'fast')
 }
 
 function viewYear (year) {
   var photos;
   console.log('viewyear', + year);
 
-  if (year === 2012) { photos = photos2012 }
-  else if (year === 2013) { photos = photos2013 }
-  else if (year === 2014) { photos = photos2014 }
-  else if (year === 2015) { photos = photos2015 }
-  else if (year === 2016) { photos = photos2016 }
-  else photos = photos2016.concat(photos2015).concat(photos2014).concat(photos2013).concat(photos2012);
+  // $('#js-slogan').hide();
+  // viewYear(2015)
+  $('#js-family').hide();
 
-  $('html, body').animate({scrollTop:500}, 'medium')
+  if (year === 2012) { photos = photos2012; $('#js-slogan').text('2012') }
+  else if (year === 2013) { photos = photos2013; $('#js-slogan').text('2013') }
+  else if (year === 2014) { photos = photos2014; $('#js-slogan').text('2014') }
+  else if (year === 2015) { photos = photos2015; $('#js-slogan').text('2015') }
+  else if (year === 2016) { photos = photos2016; $('#js-slogan').text('2016') }
+  else { photos = photos2016.concat(photos2015).concat(photos2014).concat(photos2013).concat(photos2012); $('#js-slogan').text('All Years') }
+
+  // $('html, body').animate({scrollTop:500}, 'medium')
 
   var linksContainer = $('#links')
   linksContainer.html('');

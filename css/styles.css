@@ -107,6 +107,7 @@ h2,
 
 .header-center-icon:hover {
 	transform: rotate(7deg);
+	cursor: pointer;
 }
 	
 .header-right {
@@ -133,7 +134,7 @@ h2,
 	width: 100%;
 	font-weight: 300;
 	text-align: center;
-	font-size: 64px;
+	/*font-size: 64px;*/
 }
 
 .family {
@@ -150,6 +151,7 @@ h2,
 .reunionInfo {
 	position: relative;
 	color: #f5deb3;
+	/*color: #ececec;*/
 	top: 53px;
 	border-radius: 3px;
 	margin: 0 auto;
