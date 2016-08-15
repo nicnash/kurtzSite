@@ -11,15 +11,74 @@
 
 /* global blueimp, $ */
 
-$(function () {
-  'use strict'
-  var path = getUrlPath();
-  console.log(url)
+// $(function () {
+//   'use strict'
+
+//   // var carouselLinks = []
+ 
+// })
+
+// function getUrlPath () {
+//   var path = "index";
+//   var url = window.location.href;
+//   var splits = url.split("/");
+//   var urlPath = splits[splits.length-1].slice(0,-5);
+//   console.log(urlPath)
+//   switch(urlPath) {
+//     case "index":
+//       path = index;
+//       break;
+//     case "photos":
+//   }
+//   // console.log(splits)
+// }
+
+// $(function () {
+//   'use strict'
+//   // var path = getUrlPath();
+//   // console.log(url)
 
 
-  // var carouselLinks = []
+//   // var carouselLinks = []
+//   var linksContainer = $('#links')
+//   $.each(photos2015, function (index, photo) {
+//     $('<a/>')
+//       .append($('<img>').prop('src', photo.thumbnail))
+//       .prop('href', photo.href)
+//       .prop('class', 'photo')
+//       .prop('title', photo.title)
+//       .attr('data-gallery', '')
+//       .appendTo(linksContainer)
+//   })
+// })
+
+function openPhotos () {
+  console.log('open!') 
+  // viewYear(2015)
+  $('#js-familyReunionInfo').html('<p class="yearchoice" onclick="viewYear(2012)">2012</p>' +
+      '<p class="yearchoice" onclick="viewYear(2013)">2013</p>' +
+      '<p class="yearchoice" onclick="viewYear(2014)">2014</p>' +
+      '<p class="yearchoice" onclick="viewYear(2015)">2015</p>')
+
+  $('html, body').animate({scrollTop:270}, 'fast')
+}
+
+function viewYear (year) {
+  var photos;
+  console.log('viewyear', + year);
+
+  if (year === 2012) { photos = photos2012 }
+  else if (year === 2013) { photos = photos2013 }
+  else if (year === 2014) { photos = photos2014 }
+  else if (year === 2015) { photos = photos2015 }
+  else if (year === 2016) { photos = photos2016 }
+  else photos = photos2015;
+
+  $('html, body').animate({scrollTop:500}, 'medium')
+
   var linksContainer = $('#links')
-  $.each(photos2015, function (index, photo) {
+  linksContainer.html('');
+  $.each(photos, function (index, photo) {
     $('<a/>')
       .append($('<img>').prop('src', photo.thumbnail))
       .prop('href', photo.href)
@@ -28,24 +87,18 @@ $(function () {
       .attr('data-gallery', '')
       .appendTo(linksContainer)
   })
-})
 
-function getUrlPath () {
-  var path = "index";
-  var url = window.location.href;
-  var splits = url.split("/");
-  var urlPath = splits[splits.length-1].slice(0,-5);
-  console.log(urlPath)
-  switch(urlPath) {
-    case "index":
-     console.log('fount it!!!!');
-  }
-  // console.log(splits)
+
 }
 
-function openPhotos () {
-  console.log('open!')
-}
+var photos2012 = [
+]
+
+var photos2013 = [
+]
+
+var photos2014 = [
+]
 
 var photos2015 = [
   {
