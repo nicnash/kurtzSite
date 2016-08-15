@@ -2079,229 +2079,229 @@ var photos2015 = [
     title: '',
     href: 'photos/2015/DSC_0247.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0247.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0247.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0248.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0248.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0248.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0249.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0249.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0249.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0250.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0250.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0250.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0252.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0252.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0252.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0253.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0253.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0253.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0254.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0254.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0254.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0255.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0255.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0255.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0256.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0256.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0256.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0257.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0257.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0257.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0258.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0258.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0258.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0284.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0284.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0284.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0286.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0286.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0286.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0288.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0288.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0288.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0289.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0289.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0289.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0290.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0290.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0290.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0291.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0291.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0291.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0293.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0293.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0293.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0294.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0294.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0294.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0295.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0295.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0295.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0296.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0296.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0296.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0297.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0297.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0297.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0298.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0298.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0298.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0301.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0301.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0301.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0304.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0304.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0304.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0307.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0307.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0307.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0310.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0310.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0310.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0313.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0313.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0313.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0323.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0323.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0323.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0325.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0325.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0325.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0326.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0326.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0326.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0327.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0327.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0327.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0328.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0328.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0328.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0329.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0329.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0329.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0332.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0332.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0332.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0336.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0336.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0336.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0340.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0340.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0340.jpg'
   },
   {
     title: '',
     href: 'photos/2015/DSC_0341.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2015/thumb/DSC_0341.JPG'
+    thumbnail: 'photos/2015/thumb/DSC_0341.jpg'
   },
 ]
 
@@ -2310,504 +2310,504 @@ var photos2016 = [
     title: '',
     href: 'photos/2016/July 2016 Darrel 310.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 310.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 310.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 311.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 311.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 311.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 312.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 312.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 312.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 314.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 314.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 314.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 315.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 315.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 315.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 317.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 317.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 317.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 318.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 318.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 318.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 319.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 319.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 319.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 320.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 320.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 320.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 321.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 321.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 321.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 322.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 322.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 322.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 323.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 323.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 323.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 325.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 325.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 325.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 326.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 326.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 326.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 328.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 328.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 328.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 329.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 329.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 329.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 330.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 330.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 330.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 331.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 331.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 331.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 332.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 332.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 332.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 333.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 333.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 333.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 334.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 334.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 334.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 335.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 335.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 335.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 337.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 337.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 337.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 338.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 338.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 338.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 339.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 339.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 339.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 340.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 340.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 340.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 341.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 341.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 341.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 342.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 342.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 342.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 343.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 343.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 343.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 344.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 344.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 344.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 345.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 345.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 345.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 346.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 346.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 346.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 348.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 348.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 348.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 349.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 349.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 349.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 350.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 350.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 350.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 351.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 351.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 351.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 352.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 352.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 352.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 353.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 353.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 353.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 354.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 354.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 354.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 355.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 355.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 355.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 356.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 356.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 356.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 357.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 357.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 357.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 358.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 358.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 358.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 359.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 359.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 359.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 361.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 361.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 361.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 362.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 362.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 362.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 363.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 363.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 363.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 364.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 364.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 364.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 365.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 365.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 365.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 366.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 366.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 366.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 367.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 367.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 367.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 369.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 369.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 369.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 371.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 371.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 371.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 372.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 372.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 372.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 373.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 373.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 373.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 376.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 376.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 376.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 378.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 378.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 378.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 379.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 379.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 379.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 380.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 380.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 380.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 381.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 381.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 381.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 382.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 382.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 382.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 383.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 383.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 383.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 384.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 384.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 384.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 385.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 385.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 385.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 386.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 386.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 386.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 389.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 389.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 389.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 390.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 390.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 390.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Darrel 392.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 392.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 392.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 967.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 967.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 967.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 968.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 968.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 968.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 969.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 969.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 969.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 971.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 971.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 971.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 972.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 972.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 972.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 973.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 973.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 973.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 974.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 974.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 974.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 975.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 975.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 975.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 976.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 976.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 976.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 980.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 980.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 980.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 982.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 982.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 982.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 984.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 984.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 984.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 985.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 985.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 985.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 986.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 986.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 986.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 987.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 987.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 987.jpg'
   },
   {
     title: '',
     href: 'photos/2016/July 2016 Sheryl 989.JPG',
     type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 989.JPG'
+    thumbnail: 'photos/2016/thumb/July 2016 Sheryl 989.jpg'
   }
 ]

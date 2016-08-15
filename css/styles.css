@@ -162,7 +162,8 @@ h2,
 
 
 .yearchoice {
-	color: #ffffff;
+	color: #ececec;
+	margin: 0px;
 }
 .yearchoice:hover {
 	cursor: pointer;
