@@ -1,3 +1,4 @@
+
 body {
 	/*width: 100%;*/
 	background-color: #f2f2f2;
@@ -55,7 +56,6 @@ h2,
 
 
 .content {
-	height:100%;
 	min-height: 300px;
 	/*min-width: 600px;*/
 	/*background-color: #f5f5f5;*/
@@ -78,13 +78,13 @@ h2,
 		
 .header-left {
     width: 300px;
-    height: 140px;
+    height: 160px;
     flex-grow: 1;
  /*   flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 200px;*/
     border-bottom:2px solid brown;
-    line-height: 248px;
+    line-height: 288px;
     text-align: center;
     transition: all .2s;
 }
@@ -95,7 +95,7 @@ h2,
 }
 	
 .header-center {
-    width: 196px;
+    width: 204px;
     height: 250px;
     padding-left: 32px;
     padding-right: 32px;
@@ -111,6 +111,7 @@ h2,
 .header-center-icon {
 	transition: all .5s;
 	margin-top: 26px;
+	mix-blend-mode: overlay;
 }
 
 .header-center-icon:hover {
@@ -120,13 +121,13 @@ h2,
 	
 .header-right {
     width: 300px;
-    height: 140px;
+    height: 160px;
     flex-grow: 1;
   /*  flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 200px;*/
     border-bottom:2px solid brown;
-    line-height: 248px;
+    line-height: 288px;
     text-align: center;
     transition:all .2s;
     cursor: pointer;
@@ -162,10 +163,12 @@ h2,
 	min-width: 600px;
 	text-align: center;
 	background-image: url('../img/family5.png');
+	background-image: url('../img/family6.png');
 	background-repeat: no-repeat;
 	background-position-x: center; 
 	background-size: contain;
 	/*margin-bottom:50px;*/
+
 }
 
 .reunionInfo {
@@ -176,11 +179,12 @@ h2,
 	border-radius: 3px;
 	margin: 0 auto;
 	width: 340px;
-	width: 50%;
+	width: 65%;
 	padding:20px;
 	/*height:120px;*/
-	background-color: rgba(199, 167, 140, 0.37);
-	transition: all 2s;
+	/*background-color: rgba(199, 167, 140, 0.37);*/
+	background-color: rgba(140, 175, 199, 0.81);
+	letter-spacing: 2px;
 }
 
 

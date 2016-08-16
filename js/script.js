@@ -1,59 +1,7 @@
-/*
- * blueimp Gallery Demo JS
- * https://github.com/blueimp/Gallery
- *
- * Copyright 2013, Sebastian Tschan
- * https://blueimp.net
- *
- * Licensed under the MIT license:
- * http://www.opensource.org/licenses/MIT
- */
-
-/* global blueimp, $ */
-
-// $(function () {
-//   'use strict'
-
-//   // var carouselLinks = []
- 
-// })
-
-// function getUrlPath () {
-//   var path = "index";
-//   var url = window.location.href;
-//   var splits = url.split("/");
-//   var urlPath = splits[splits.length-1].slice(0,-5);
-//   console.log(urlPath)
-//   switch(urlPath) {
-//     case "index":
-//       path = index;
-//       break;
-//     case "photos":
-//   }
-//   // console.log(splits)
-// }
-
-// $(function () {
-//   'use strict'
-//   // var path = getUrlPath();
-//   // console.log(url)
-
-
-//   // var carouselLinks = []
-//   var linksContainer = $('#links')
-//   $.each(photos2015, function (index, photo) {
-//     $('<a/>')
-//       .append($('<img>').prop('src', photo.thumbnail))
-//       .prop('href', photo.href)
-//       .prop('class', 'photo')
-//       .prop('title', photo.title)
-//       .attr('data-gallery', '')
-//       .appendTo(linksContainer)
-//   })
-// })
-
 function openHome () {
-$('#js-slogan').show();
+  var linksContainer = $('#links')
+  linksContainer.html('');
+  $('#js-slogan').show();
   $('#js-family').show();
 
   $('#js-slogan').text('Made Strong')
@@ -63,6 +11,8 @@ $('#js-slogan').show();
 }
 
 function openOurStory () {
+  var linksContainer = $('#links')
+  linksContainer.html('');
   $('#js-slogan').show();
   $('#js-family').show();
 
@@ -72,6 +22,8 @@ function openOurStory () {
 
 function openPhotos () {
   console.log('open!') 
+  var linksContainer = $('#links')
+  linksContainer.html('');
   $('#js-slogan').show();
   $('#js-family').show();
 
