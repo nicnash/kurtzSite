@@ -5,6 +5,7 @@ body {
 	background-image: url('../img/concrete_seamless.png');
 	/*background-size:cover;*/
 	padding: 15px;
+	padding-bottom:0px;
 	font-family: 'Old Standard TT', serif;
 	font-size: 24px;
 	color: brown;
@@ -57,7 +58,7 @@ h2,
 
 .content {
 	min-height: 300px;
-	/*min-width: 600px;*/
+	min-width: 600px;
 	/*background-color: #f5f5f5;*/
 	padding: 40px;
 	background-image: url("../img/cork-wallet.png");
@@ -111,7 +112,7 @@ h2,
 .header-center-icon {
 	transition: all .5s;
 	margin-top: 26px;
-	mix-blend-mode: overlay;
+	mix-blend-mode: multiply;
 }
 
 .header-center-icon:hover {
@@ -206,4 +207,12 @@ h2,
 
 div#links {
     margin-top: 32px;
+}
+
+.footer {
+	position: absolute;
+	bottom:0px;
+	font-size: 12px;
+	color: rgba(140, 175, 199, 0.81);
+	text-align: right
 }
