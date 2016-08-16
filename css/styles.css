@@ -26,6 +26,7 @@ a.photo img{
   object-fit: cover;
   border: 0;
   vertical-align: middle;
+  border-radius: 1px
 }
 a.photo img:hover {
 	opacity: .5;
@@ -56,6 +57,7 @@ h2,
 .content {
 	height:100%;
 	min-height: 300px;
+	/*min-width: 600px;*/
 	/*background-color: #f5f5f5;*/
 	padding: 40px;
 	background-image: url("../img/cork-wallet.png");
@@ -69,16 +71,19 @@ h2,
     justify-content: center;
     align-content: flex-start;
     align-items: flex-start;
+
+    padding-left: 36px;
+    padding-right: 36px;
 }
 		
 .header-left {
     width: 300px;
     height: 140px;
+    flex-grow: 1;
  /*   flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 200px;*/
-
-    border-bottom:1px solid brown;
+    border-bottom:2px solid brown;
     line-height: 248px;
     text-align: center;
     transition: all .2s;
@@ -92,8 +97,8 @@ h2,
 .header-center {
     width: 196px;
     height: 250px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
     text-align: center
 }
 
@@ -105,22 +110,22 @@ h2,
 
 .header-center-icon {
 	transition: all .5s;
-	margin-top: 16px;
+	margin-top: 26px;
 }
 
 .header-center-icon:hover {
-	transform: rotate(7deg);
+	transform: rotate(4deg);
 	cursor: pointer;
 }
 	
 .header-right {
     width: 300px;
     height: 140px;
+    flex-grow: 1;
   /*  flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 200px;*/
-
-    border-bottom:1px solid brown;
+    border-bottom:2px solid brown;
     line-height: 248px;
     text-align: center;
     transition:all .2s;
@@ -133,13 +138,22 @@ h2,
 }
 .slogan {
 	margin-top: 0px;
-	margin-bottom: -8px;
-	width: 100%;
+	margin-bottom: 32px;
+	/*width: 100%;*/
+	margin-left: 36px;
+    margin-right: 36px;
 	font-weight: 300;
 	text-align: center;
 	position:relative;
-	top: -23px;
+	border-bottom:2px dashed brown;
+	/*top: -23px;*/
 	/*font-size: 64px;*/
+	padding-bottom: 23px;
+}
+
+#links {
+	padding-left: 32px;
+    padding-right: 32px;
 }
 
 .family {
@@ -151,7 +165,7 @@ h2,
 	background-repeat: no-repeat;
 	background-position-x: center; 
 	background-size: contain;
-	margin-bottom:50px;
+	/*margin-bottom:50px;*/
 }
 
 .reunionInfo {
@@ -177,4 +191,8 @@ h2,
 .yearchoice:hover {
 	cursor: pointer;
 	text-decoration: underline;
+}
+
+div#links {
+    margin-top: 32px;
 }
