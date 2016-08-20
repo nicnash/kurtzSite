@@ -1,4 +1,20 @@
+$(function() {
+  // Handler for .ready() called.
+  var url= window.location.href ;
+  console.log(url);
+
+  if(url === 'http://localhost/#photos')
+    openPhotos()
+  else if (url === 'http://localhost/#story')
+    openOurStory();
+  else 
+    openHome();
+});
+
 function openHome () {
+  var stateObj = { foo: "bar" };
+  window.history.pushState('stateObj', 'Home Title', '/#');
+
   var linksContainer = $('#links')
   linksContainer.html('');
   $('#js-slogan').show();
@@ -11,6 +27,9 @@ function openHome () {
 }
 
 function openOurStory () {
+  var stateObj = { foo: "bar" };
+  window.history.pushState('stateObj', 'Story Title', '/#story');
+
   var linksContainer = $('#links')
   linksContainer.html('');
   $('#js-slogan').show();
@@ -21,6 +40,9 @@ function openOurStory () {
 }
 
 function openPhotos () {
+  var stateObj = { foo: "bar" };
+  window.history.pushState('stateObj', 'Photos Title', '/#photos');
+
   console.log('open!') 
   var linksContainer = $('#links')
   linksContainer.html('');
