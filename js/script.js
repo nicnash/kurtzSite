@@ -1,12 +1,16 @@
 $(function() {
   var url= window.location.href ;
 
-  if(url === 'http://localhost/#photos')
-    openPhotos()
-  else if (url === 'http://localhost/#story')
-    openOurStory();
-  else 
-    openHome();
+  switch (url) {
+    case 'http://localhost/#photos':
+      openPhotos();
+      break;
+    case 'http://localhost/#story':
+      openOurStory();
+      break;
+    default:
+      openHome();
+  }
 });
 
 function openHome () {
@@ -18,8 +22,6 @@ function openHome () {
     'Kasper Pavilian<br>' +
     'July 21st 2017');
 }
-
-
 
 function openOurStory () {
   gotoPage('story');
@@ -47,12 +49,16 @@ function gotoPage(page){
   $('#js-family').show();
   var stateObj = { page: page };
 
-  if(page === 'photos')
-    window.history.pushState(stateObj, 'Photos Title', '/#photos');
-  else if (page === 'story')
-    window.history.pushState(stateObj, 'Story Title', '/#story');
-  else 
-    window.history.pushState(stateObj, 'Home Title', '/#');
+  switch (page) {
+    case 'photos':
+      window.history.pushState(stateObj, 'Photos Title', '/#photos');
+      break;
+    case 'story':
+      window.history.pushState(stateObj, 'Story Title', '/#story');
+      break;
+    default:
+      window.history.pushState(stateObj, 'Home Title', '/#');
+  }
 }
 
 function viewYear (year) {
@@ -60,12 +66,31 @@ function viewYear (year) {
 
   $('#js-family').hide();
 
-  if (year === 2012) { photos = photos2012; $('#js-slogan').text('2012') }
-  else if (year === 2013) { photos = photos2013; $('#js-slogan').text('2013') }
-  else if (year === 2014) { photos = photos2014; $('#js-slogan').text('2014') }
-  else if (year === 2015) { photos = photos2015; $('#js-slogan').text('2015') }
-  else if (year === 2016) { photos = photos2016; $('#js-slogan').text('2016') }
-  else { photos = photos2016.concat(photos2015).concat(photos2014).concat(photos2013).concat(photos2012); $('#js-slogan').text('All Years') }
+  switch (year) {
+    case 2012:
+      photos = photos2012;
+      $('#js-slogan').text('' + year);
+      break;
+    case 2013:
+      photos = photos2013;
+      $('#js-slogan').text('' + year);
+      break;
+    case 2014:
+      photos = photos2014;
+      $('#js-slogan').text('' + year);
+      break;
+    case 2015:
+      photos = photos2015;
+      $('#js-slogan').text('' + year);
+      break;
+    case 2016:
+      photos = photos2016;
+      $('#js-slogan').text('' + year);
+      break;
+    default:
+      photos = photos2016.concat(photos2015).concat(photos2014).concat(photos2013).concat(photos2012);
+      $('#js-slogan').text('All Years')
+  }
 
   var linksContainer = $('#links')
   linksContainer.html('');
