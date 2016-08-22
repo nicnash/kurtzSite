@@ -1,7 +1,5 @@
 $(function() {
-  // Handler for .ready() called.
   var url= window.location.href ;
-  console.log(url);
 
   if(url === 'http://localhost/#photos')
     openPhotos()
@@ -12,61 +10,54 @@ $(function() {
 });
 
 function openHome () {
-  var stateObj = { foo: "bar" };
-  window.history.pushState('stateObj', 'Home Title', '/#');
-
-  var linksContainer = $('#links')
-  linksContainer.html('');
-  $('#js-slogan').show();
-  $('#js-family').show();
-
+  
+  gotoPage('home');
+  
   $('#js-slogan').text('Made Strong')
   $('#js-familyReunionInfo').html('32nd Kurtz Family Reunion<br>' +
     'Kasper Pavilian<br>' +
     'July 21st 2017');
 }
 
-function openOurStory () {
-  var stateObj = { foo: "bar" };
-  window.history.pushState('stateObj', 'Story Title', '/#story');
 
-  var linksContainer = $('#links')
-  linksContainer.html('');
-  $('#js-slogan').show();
-  $('#js-family').show();
+
+function openOurStory () {
+  gotoPage('story');
 
   $('#js-slogan').text('Our Story')
   $('#js-familyReunionInfo').html('<p>Our Kurtz Family tree began with Joseph Kurtz in 1859 with 9 children. Joseph, Person2,... 32 Reunions strong Kurtz is still going strong and sharing the love.  Every year we get back together to do it again and get back to our roots...</p>');
 }
 
 function openPhotos () {
-  var stateObj = { foo: "bar" };
-  window.history.pushState('stateObj', 'Photos Title', '/#photos');
+  gotoPage('photos');
 
-  console.log('open!') 
+  $('#js-slogan').text('Photos')
+  $('#js-familyReunionInfo').html('<p class="yearchoice" onclick="viewYear(2016)">2016</p>' +
+    '<p class="yearchoice" onclick="viewYear(2015)">2015</p>' +
+    '<p class="yearchoice" onclick="viewYear(2014)">2014</p>' +
+    '<p class="yearchoice" onclick="viewYear(2013)">2013</p>' +
+    '<p class="yearchoice" onclick="viewYear(2012)">2012</p>' +
+    '<p class="yearchoice" onclick="viewYear(1)">All</p>')
+}
+
+function gotoPage(page){
   var linksContainer = $('#links')
   linksContainer.html('');
   $('#js-slogan').show();
   $('#js-family').show();
+  var stateObj = { page: page };
 
-  $('#js-slogan').text('Photos')
-  // viewYear(2015)
-  $('#js-familyReunionInfo').html('<p class="yearchoice" onclick="viewYear(2016)">2016</p>' +
-      '<p class="yearchoice" onclick="viewYear(2015)">2015</p>' +
-      '<p class="yearchoice" onclick="viewYear(2014)">2014</p>' +
-      '<p class="yearchoice" onclick="viewYear(2013)">2013</p>' +
-      '<p class="yearchoice" onclick="viewYear(2012)">2012</p>' +
-      '<p class="yearchoice" onclick="viewYear(1)">All</p>')
-
-  // $('html, body').animate({scrollTop:270}, 'fast')
+  if(page === 'photos')
+    window.history.pushState(stateObj, 'Photos Title', '/#photos');
+  else if (page === 'story')
+    window.history.pushState(stateObj, 'Story Title', '/#story');
+  else 
+    window.history.pushState(stateObj, 'Home Title', '/#');
 }
 
 function viewYear (year) {
   var photos;
-  console.log('viewyear', + year);
 
-  // $('#js-slogan').hide();
-  // viewYear(2015)
   $('#js-family').hide();
 
   if (year === 2012) { photos = photos2012; $('#js-slogan').text('2012') }
@@ -75,8 +66,6 @@ function viewYear (year) {
   else if (year === 2015) { photos = photos2015; $('#js-slogan').text('2015') }
   else if (year === 2016) { photos = photos2016; $('#js-slogan').text('2016') }
   else { photos = photos2016.concat(photos2015).concat(photos2014).concat(photos2013).concat(photos2012); $('#js-slogan').text('All Years') }
-
-  // $('html, body').animate({scrollTop:500}, 'medium')
 
   var linksContainer = $('#links')
   linksContainer.html('');
@@ -91,6 +80,16 @@ function viewYear (year) {
   })
 }
 
+//Google analytics
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82538910-1', 'auto');
+  ga('send', 'pageview');
+
+//Photo Data
 var photos2012 = [
   {
     title: '',
