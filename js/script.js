@@ -51,13 +51,13 @@ function gotoPage(page){
 
   switch (page) {
     case 'photos':
-      window.history.pushState(stateObj, 'Photos Title', '/#photos');
+      window.history.pushState(stateObj, 'Photos Title', '/photos');
       break;
     case 'story':
-      window.history.pushState(stateObj, 'Story Title', '/#story');
+      window.history.pushState(stateObj, 'Story Title', '/story');
       break;
     default:
-      window.history.pushState(stateObj, 'Home Title', '/#');
+      window.history.pushState(stateObj, 'Home Title', '/');
   }
 }
 
