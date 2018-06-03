@@ -1,37 +1,41 @@
-
 body {
-	/*width: 100%;*/
-	background-color: #f2f2f2;
-	background-image: url('../img/concrete_seamless.png');
-	/*background-size:cover;*/
-	padding: 15px;
-	padding-bottom:0px;
-	font-family: 'Old Standard TT', serif;
-	font-size: 24px;
-	color: brown;
+  /*width: 100%;*/
+  background-color: #f2f2f2;
+  background-image: url('../img/concrete_seamless.png');
+  /*background-size:cover;*/
+  padding: 15px;
+  padding-bottom: 0px;
+  font-family: 'Old Standard TT', serif;
+  font-size: 24px;
+  color: brown;
 
-	max-width: 1024px;
-  	margin: 0 auto;
+  max-width: 1024px;
+  margin: 0 auto;
 }
-
+.contact {
+  font-size: 14px;
+}
+.anniversary-flyer {
+  width: 100%;
+}
 
 a {
-	/*color:  rgba(199, 167, 140, 1);*/
-	color: white;
-  	text-decoration: none;
+  /*color:  rgba(199, 167, 140, 1);*/
+  color: white;
+  text-decoration: none;
 }
 
-a.photo img{
+a.photo img {
   margin: 2px;
   width: 54px;
   height: 80px;
   object-fit: cover;
   border: 0;
   vertical-align: middle;
-  border-radius: 1px
+  border-radius: 1px;
 }
 a.photo img:hover {
-	opacity: .5;
+  opacity: 0.5;
 }
 
 h1 {
@@ -55,164 +59,162 @@ h2,
   }
 }
 
-
 .content {
-	min-height: 300px;
-	min-width: 600px;
-	/*background-color: #f5f5f5;*/
-	padding: 40px;
-	background-image: url("../img/cork-wallet.png");
-	border: 2px dotted #a52a2a;
+  min-height: 300px;
+  min-width: 600px;
+  /*background-color: #f5f5f5;*/
+  padding: 40px;
+  background-image: url('../img/cork-wallet.png');
+  border: 2px dotted #a52a2a;
 }
 
 .header {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: flex-start;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
 
-    padding-left: 36px;
-    padding-right: 36px;
+  padding-left: 36px;
+  padding-right: 36px;
 }
-		
+
 .header-left {
-    width: 300px;
-    height: 160px;
-    flex-grow: 1;
- /*   flex-grow: 1;
+  width: 300px;
+  height: 160px;
+  flex-grow: 1;
+  /*   flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 200px;*/
-    border-bottom:2px solid brown;
-    line-height: 288px;
-    text-align: center;
-    transition: all .2s;
+  border-bottom: 2px solid brown;
+  line-height: 288px;
+  text-align: center;
+  transition: all 0.2s;
 }
 
 .header-left:hover {
-	color: brown;
-	border-bottom: 6px solid brown;
-}
-	
-.header-center {
-    width: 204px;
-    height: 250px;
-    padding-left: 32px;
-    padding-right: 32px;
-    text-align: center
+  color: brown;
+  border-bottom: 6px solid brown;
 }
 
- .header-center-title {
-    text-transform: uppercase;
-    margin: 0px;
-    font-weight: 900;
+.header-center {
+  width: 204px;
+  height: 250px;
+  padding-left: 32px;
+  padding-right: 32px;
+  text-align: center;
+}
+
+.header-center-title {
+  text-transform: uppercase;
+  margin: 0px;
+  font-weight: 900;
 }
 
 .header-center-icon {
-	transition: all .5s;
-	margin-top: 26px;
-	mix-blend-mode: multiply;
+  transition: all 0.5s;
+  margin-top: 26px;
+  mix-blend-mode: multiply;
 }
 
 .header-center-icon:hover {
-	transform: rotate(4deg);
-	cursor: pointer;
+  transform: rotate(4deg);
+  cursor: pointer;
 }
-	
+
 .header-right {
-    width: 300px;
-    height: 160px;
-    flex-grow: 1;
+  width: 300px;
+  height: 160px;
+  flex-grow: 1;
   /*  flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 200px;*/
-    border-bottom:2px solid brown;
-    line-height: 288px;
-    text-align: center;
-    transition:all .2s;
-    cursor: pointer;
+  border-bottom: 2px solid brown;
+  line-height: 288px;
+  text-align: center;
+  transition: all 0.2s;
+  cursor: pointer;
 }
 
 .header-right:hover {
-	color: brown;
-	border-bottom: 6px solid brown;
+  color: brown;
+  border-bottom: 6px solid brown;
 }
 .slogan {
-	margin-top: 0px;
-	margin-bottom: 32px;
-	/*width: 100%;*/
-	margin-left: 36px;
-    margin-right: 36px;
-	font-weight: 300;
-	text-align: center;
-	position:relative;
-	border-bottom:2px dashed brown;
-	/*top: -23px;*/
-	/*font-size: 64px;*/
-	padding-bottom: 23px;
+  margin-top: 0px;
+  margin-bottom: 32px;
+  /*width: 100%;*/
+  margin-left: 36px;
+  margin-right: 36px;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+  border-bottom: 2px dashed brown;
+  /*top: -23px;*/
+  /*font-size: 64px;*/
+  padding-bottom: 23px;
 }
 
 #links {
-	padding-left: 32px;
-    padding-right: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .family {
-	height: 500px;
-	width:100%;
-	min-width: 600px;
-	text-align: center;
-	background-image: url('../img/family5.png');
-	background-image: url('../img/family6.png');
-	background-repeat: no-repeat;
-	background-position-x: center; 
-	background-size: contain;
-	/*margin-bottom:50px;*/
-
+  height: 500px;
+  width: 100%;
+  min-width: 600px;
+  text-align: center;
+  background-image: url('../img/family5.png');
+  background-image: url('../img/family6.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: contain;
+  /*margin-bottom:50px;*/
 }
 
 .reunionInfo {
-	position: relative;
-	color: #f5deb3;
-	/*color: #ececec;*/
-	top: 53px;
-	border-radius: 3px;
-	margin: 0 auto;
-	width: 340px;
-	width: 65%;
-	padding:20px;
-	/*height:120px;*/
-	/*background-color: rgba(199, 167, 140, 0.37);*/
-	background-color: rgba(140, 175, 199, 0.81);
-	letter-spacing: 2px;
+  position: relative;
+  color: #f5deb3;
+  /*color: #ececec;*/
+  top: 53px;
+  border-radius: 3px;
+  margin: 0 auto;
+  width: 340px;
+  width: 65%;
+  padding: 20px;
+  /*height:120px;*/
+  /*background-color: rgba(199, 167, 140, 0.37);*/
+  background-color: rgba(140, 175, 199, 0.81);
+  letter-spacing: 2px;
 }
-
 
 .yearchoice {
-	color: #f2f2f2;
-	margin: 0px;
+  color: #f2f2f2;
+  margin: 0px;
 }
 .yearchoice:hover {
-	cursor: pointer;
-	/*text-decoration: underline;*/
-	color:brown;
-	/*background-color: #f2f2f2;*/
-	background-color: rgba(242,242,242,.75);
+  cursor: pointer;
+  /*text-decoration: underline;*/
+  color: brown;
+  /*background-color: #f2f2f2;*/
+  background-color: rgba(242, 242, 242, 0.75);
 }
 
-.yearchoice:hover::before,.yearchoice:hover::after {
-	content:'\b7';
+.yearchoice:hover::before,
+.yearchoice:hover::after {
+  content: '\b7';
 }
 
 div#links {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 .footer {
-	position: absolute;
-	bottom:0px;
-	font-size: 12px;
-	color: rgba(140, 175, 199, 0.81);
-	text-align: right
+  position: absolute;
+  bottom: 0px;
+  font-size: 12px;
+  color: rgba(140, 175, 199, 0.81);
+  text-align: right;
 }

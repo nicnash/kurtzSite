@@ -1,0 +1,95 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 86BA-D56E
+
+ Directory of C:\programming\kurtzSite\photos\2016
+
+08/15/2016  01:18 PM    <DIR>          .
+08/15/2016  01:18 PM    <DIR>          ..
+08/15/2016  12:32 PM           762,202 July 2016 Darrel 310.JPG
+08/15/2016  12:32 PM           734,598 July 2016 Darrel 311.JPG
+08/15/2016  12:32 PM           580,870 July 2016 Darrel 312.JPG
+08/15/2016  12:32 PM           770,437 July 2016 Darrel 314.JPG
+08/15/2016  12:33 PM           620,377 July 2016 Darrel 315.JPG
+08/15/2016  12:33 PM           784,318 July 2016 Darrel 317.JPG
+08/15/2016  12:33 PM           691,656 July 2016 Darrel 318.JPG
+08/15/2016  12:33 PM           738,962 July 2016 Darrel 319.JPG
+08/15/2016  12:33 PM           637,113 July 2016 Darrel 320.JPG
+08/15/2016  12:33 PM           704,693 July 2016 Darrel 321.JPG
+08/15/2016  12:33 PM           537,340 July 2016 Darrel 322.JPG
+08/15/2016  12:33 PM           476,861 July 2016 Darrel 323.JPG
+08/15/2016  12:34 PM           493,796 July 2016 Darrel 325.JPG
+08/15/2016  12:34 PM           576,609 July 2016 Darrel 326.JPG
+08/15/2016  12:34 PM           765,876 July 2016 Darrel 328.JPG
+08/15/2016  12:34 PM           606,967 July 2016 Darrel 329.JPG
+08/15/2016  12:34 PM           770,142 July 2016 Darrel 330.JPG
+08/15/2016  12:34 PM           805,874 July 2016 Darrel 331.JPG
+08/15/2016  12:34 PM           912,517 July 2016 Darrel 332.JPG
+08/15/2016  12:34 PM           640,570 July 2016 Darrel 333.JPG
+08/15/2016  12:34 PM           557,885 July 2016 Darrel 334.JPG
+08/15/2016  12:34 PM           503,316 July 2016 Darrel 335.JPG
+08/15/2016  12:34 PM           940,006 July 2016 Darrel 337.JPG
+08/15/2016  12:34 PM           690,880 July 2016 Darrel 338.JPG
+08/15/2016  12:34 PM         1,066,692 July 2016 Darrel 339.JPG
+08/15/2016  12:34 PM           529,805 July 2016 Darrel 340.JPG
+08/15/2016  12:34 PM           802,550 July 2016 Darrel 341.JPG
+08/15/2016  12:34 PM           698,068 July 2016 Darrel 342.JPG
+08/15/2016  12:34 PM         1,000,439 July 2016 Darrel 343.JPG
+08/15/2016  12:34 PM           387,402 July 2016 Darrel 344.JPG
+08/15/2016  12:34 PM           732,324 July 2016 Darrel 345.JPG
+08/15/2016  12:34 PM           579,632 July 2016 Darrel 346.JPG
+08/15/2016  12:34 PM           602,488 July 2016 Darrel 348.JPG
+08/15/2016  12:34 PM           740,503 July 2016 Darrel 349.JPG
+08/15/2016  12:34 PM           657,136 July 2016 Darrel 350.JPG
+08/15/2016  12:34 PM           807,783 July 2016 Darrel 351.JPG
+08/15/2016  12:34 PM           448,270 July 2016 Darrel 352.JPG
+08/15/2016  12:34 PM           541,958 July 2016 Darrel 353.JPG
+08/15/2016  12:34 PM           766,540 July 2016 Darrel 354.JPG
+08/15/2016  12:34 PM           507,048 July 2016 Darrel 355.JPG
+08/15/2016  12:34 PM           481,932 July 2016 Darrel 356.JPG
+08/15/2016  12:34 PM           558,587 July 2016 Darrel 357.JPG
+08/15/2016  12:35 PM           796,202 July 2016 Darrel 358.JPG
+08/15/2016  12:35 PM           657,898 July 2016 Darrel 359.JPG
+08/15/2016  12:35 PM           630,294 July 2016 Darrel 361.JPG
+08/15/2016  12:35 PM           857,943 July 2016 Darrel 362.JPG
+08/15/2016  12:35 PM           576,514 July 2016 Darrel 363.JPG
+08/15/2016  12:35 PM           568,267 July 2016 Darrel 364.JPG
+08/15/2016  12:35 PM         1,024,938 July 2016 Darrel 365.JPG
+08/15/2016  12:35 PM           631,503 July 2016 Darrel 366.JPG
+08/15/2016  12:35 PM           450,897 July 2016 Darrel 367.JPG
+08/15/2016  12:35 PM           829,224 July 2016 Darrel 369.JPG
+08/15/2016  12:35 PM           947,258 July 2016 Darrel 371.JPG
+08/15/2016  12:35 PM           477,341 July 2016 Darrel 372.JPG
+08/15/2016  12:35 PM           411,309 July 2016 Darrel 373.JPG
+08/15/2016  12:35 PM           965,812 July 2016 Darrel 376.JPG
+08/15/2016  12:35 PM           451,109 July 2016 Darrel 378.JPG
+08/15/2016  12:35 PM           452,308 July 2016 Darrel 379.JPG
+08/15/2016  12:35 PM           417,854 July 2016 Darrel 380.JPG
+08/15/2016  12:35 PM           767,729 July 2016 Darrel 381.JPG
+08/15/2016  12:35 PM           684,503 July 2016 Darrel 382.JPG
+08/15/2016  12:35 PM           563,419 July 2016 Darrel 383.JPG
+08/15/2016  12:35 PM           895,303 July 2016 Darrel 384.JPG
+08/15/2016  12:35 PM           720,434 July 2016 Darrel 385.JPG
+08/15/2016  12:35 PM           866,640 July 2016 Darrel 386.JPG
+08/15/2016  12:35 PM           538,003 July 2016 Darrel 389.JPG
+08/15/2016  12:35 PM           545,825 July 2016 Darrel 390.JPG
+08/15/2016  12:35 PM           729,539 July 2016 Darrel 392.JPG
+08/15/2016  12:27 PM           419,910 July 2016 Sheryl 967.JPG
+08/15/2016  12:32 PM           366,241 July 2016 Sheryl 968.JPG
+08/15/2016  12:32 PM           434,639 July 2016 Sheryl 969.JPG
+08/15/2016  12:32 PM           398,038 July 2016 Sheryl 971.JPG
+08/15/2016  12:32 PM           419,809 July 2016 Sheryl 972.JPG
+08/15/2016  12:32 PM           364,485 July 2016 Sheryl 973.JPG
+08/15/2016  12:32 PM           319,557 July 2016 Sheryl 974.JPG
+08/15/2016  12:32 PM           350,294 July 2016 Sheryl 975.JPG
+08/15/2016  12:35 PM           374,244 July 2016 Sheryl 976.JPG
+08/15/2016  12:35 PM           599,802 July 2016 Sheryl 980.JPG
+08/15/2016  12:35 PM           348,634 July 2016 Sheryl 982.JPG
+08/15/2016  12:35 PM           459,155 July 2016 Sheryl 984.JPG
+08/15/2016  12:36 PM           551,939 July 2016 Sheryl 985.JPG
+08/15/2016  12:36 PM           629,335 July 2016 Sheryl 986.JPG
+08/15/2016  12:36 PM           635,614 July 2016 Sheryl 987.JPG
+08/15/2016  12:36 PM           459,237 July 2016 Sheryl 989.JPG
+08/15/2016  01:18 PM                 0 photolist.txt
+08/15/2016  01:15 PM    <DIR>          thumb
+              85 File(s)     52,802,021 bytes
+               3 Dir(s)  18,568,302,592 bytes free

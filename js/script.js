@@ -1,72 +1,102 @@
-function openHome () {
-  var linksContainer = $('#links')
+function openHome() {
+  var linksContainer = $('#links');
   linksContainer.html('');
   $('#js-slogan').show();
   $('#js-family').show();
 
-  $('#js-slogan').text('Made Strong')
-  $('#js-familyReunionInfo').html('32nd Kurtz Family Reunion<br>' +
-    'Kasper Pavilian<br>' +
-    'July 21st 2017');
+  $('#js-slogan').text('Made Strong');
+  $('#js-familyReunionInfo').html(
+    '35nd Annual Kurtz Reunion<br>' +
+      '<a href="https://www.google.com/maps/place/65+Co+Rd+350,+Shiner,+TX+77984/@29.4533554,-97.1832184,158m/data=!3m2!1e3!4b1!4m5!3m4!1s0x86430f2a4c804261:0x27f5aa5a2926a80c!8m2!3d29.4533542!4d-97.1826712">Aurthur Kaspar Pavilion, Shiner Texas</a><br>' +
+      'July 21st 2018 (3rd Saturday)at 12:30pm<br>' +
+      'T-Shirts: natalierae82@gmail.com<br><br>' +
+      '<div class="contact">Questions: <br>' +
+      'Dinah Jackson: 713 459-7080 or djackson2008@att.net<br> ' +
+      'Sheryl Nash: 713 550-5300 or sherylnash@gmail.com<br></div>'
+  );
+  $('#js-extraInfo').html('<img class="anniversary-flyer" src="./img/35thAnniversaryFlyer.jpg">');
 }
 
-function openOurStory () {
-  var linksContainer = $('#links')
+function openOurStory() {
+  var linksContainer = $('#links');
   linksContainer.html('');
   $('#js-slogan').show();
   $('#js-family').show();
 
-  $('#js-slogan').text('Our Story')
-  $('#js-familyReunionInfo').html('<p>Our Kurtz Family tree began with Joseph Kurtz in 1859 with 9 children. Joseph, Person2,... 32 Reunions strong Kurtz is still going strong and sharing the love.  Every year we get back together to do it again and get back to our roots...</p>');
+  $('#js-slogan').text('Our Story');
+  $('#js-familyReunionInfo').html(
+    // '<p>Our Kurtz Family tree began with Joseph Kurtz in 1859 with 9 children. Joseph, Person2,... 32 Reunions strong Kurtz is still going strong and sharing the love.  Every year we get back together to do it again and get back to our roots...</p>'
+    '<p>Work in progress, stay tuned!</p>'
+  );
 }
 
-function openPhotos () {
-  console.log('open!') 
-  var linksContainer = $('#links')
+function openPhotos() {
+  console.log('open!');
+  var linksContainer = $('#links');
   linksContainer.html('');
   $('#js-slogan').show();
   $('#js-family').show();
 
-  $('#js-slogan').text('Photos')
+  $('#js-slogan').text('Photos');
   // viewYear(2015)
-  $('#js-familyReunionInfo').html('<p class="yearchoice" onclick="viewYear(2016)">2016</p>' +
+  $('#js-familyReunionInfo').html(
+    '<p class="yearchoice" onclick="viewYear(2017)">2017</p>' +
+      '<p class="yearchoice" onclick="viewYear(2016)">2016</p>' +
       '<p class="yearchoice" onclick="viewYear(2015)">2015</p>' +
       '<p class="yearchoice" onclick="viewYear(2014)">2014</p>' +
       '<p class="yearchoice" onclick="viewYear(2013)">2013</p>' +
       '<p class="yearchoice" onclick="viewYear(2012)">2012</p>' +
-      '<p class="yearchoice" onclick="viewYear(1)">All</p>')
+      '<p class="yearchoice" onclick="viewYear(1)">All</p>'
+  );
 
   // $('html, body').animate({scrollTop:270}, 'fast')
 }
 
-function viewYear (year) {
+function viewYear(year) {
   var photos;
-  console.log('viewyear', + year);
-
-  // $('#js-slogan').hide();
-  // viewYear(2015)
   $('#js-family').hide();
 
-  if (year === 2012) { photos = photos2012; $('#js-slogan').text('2012') }
-  else if (year === 2013) { photos = photos2013; $('#js-slogan').text('2013') }
-  else if (year === 2014) { photos = photos2014; $('#js-slogan').text('2014') }
-  else if (year === 2015) { photos = photos2015; $('#js-slogan').text('2015') }
-  else if (year === 2016) { photos = photos2016; $('#js-slogan').text('2016') }
-  else { photos = photos2016.concat(photos2015).concat(photos2014).concat(photos2013).concat(photos2012); $('#js-slogan').text('All Years') }
+  if (year === 2012) {
+    photos = photos2012;
+    $('#js-slogan').text('2012');
+  } else if (year === 2013) {
+    photos = photos2013;
+    $('#js-slogan').text('2013');
+  } else if (year === 2014) {
+    photos = photos2014;
+    $('#js-slogan').text('2014');
+  } else if (year === 2015) {
+    photos = photos2015;
+    $('#js-slogan').text('2015');
+  } else if (year === 2016) {
+    photos = photos2016;
+    $('#js-slogan').text('2016');
+  } else if (year === 2017) {
+    photos = photos2017;
+    $('#js-slogan').text('2017');
+  } else {
+    photos = photos2017
+      .concat(photos2016)
+      .concat(photos2015)
+      .concat(photos2014)
+      .concat(photos2013)
+      .concat(photos2012);
+    $('#js-slogan').text('All Years');
+  }
 
   // $('html, body').animate({scrollTop:500}, 'medium')
 
-  var linksContainer = $('#links')
+  var linksContainer = $('#links');
   linksContainer.html('');
-  $.each(photos, function (index, photo) {
+  $.each(photos, function(index, photo) {
     $('<a/>')
       .append($('<img>').prop('src', photo.thumbnail))
       .prop('href', photo.href)
       .prop('class', 'photo')
       .prop('title', photo.title)
       .attr('data-gallery', '')
-      .appendTo(linksContainer)
-  })
+      .appendTo(linksContainer);
+  });
 }
 
 var photos2012 = [
@@ -429,8 +459,8 @@ var photos2012 = [
     href: 'photos/2012/902871551006_992061662006_1000.jpg',
     type: 'image/jpeg',
     thumbnail: 'photos/2012/thumb/902871551006_992061662006_1000.jpg'
-  },
-]
+  }
+];
 
 var photos2013 = [
   {
@@ -1470,8 +1500,8 @@ var photos2013 = [
     href: 'photos/2013/img_3412.jpg',
     type: 'image/jpeg',
     thumbnail: 'photos/2013/thumb/img_3412.jpg'
-  },
-]
+  }
+];
 
 var photos2014 = [
   {
@@ -2050,7 +2080,7 @@ var photos2014 = [
     type: 'image/jpeg',
     thumbnail: 'photos/2014/thumb/907861286006_998031437006_1000.jpg'
   }
-]
+];
 
 var photos2015 = [
   {
@@ -2280,8 +2310,8 @@ var photos2015 = [
     href: 'photos/2015/DSC_0341.JPG',
     type: 'image/jpeg',
     thumbnail: 'photos/2015/thumb/DSC_0341.jpg'
-  },
-]
+  }
+];
 
 var photos2016 = [
   {
@@ -2788,4 +2818,457 @@ var photos2016 = [
     type: 'image/jpeg',
     thumbnail: 'photos/2016/thumb/July 2016 Sheryl 989.jpg'
   }
-]
+];
+
+var photos2017 = [
+  {
+    title: '',
+    href: 'photos/2016/July 2016 Darrel 310.JPG',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 310.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2016/July 2016 Darrel 311.JPG',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 311.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2016/July 2016 Darrel 312.JPG',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2016/thumb/July 2016 Darrel 312.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_3218.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_3218.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_3220.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_3220.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_3222.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_3222.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_3223.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_3223.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_3225.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_3225.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6827.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6827.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6831.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6831.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6834.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6834.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6835.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6835.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6838.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6838.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6840.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6840.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6845.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6845.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6848.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6848.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6849.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6849.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6850.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6850.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6852.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6852.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6855.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6855.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6857.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6857.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6861.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6861.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6862.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6862.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6866.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6866.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6867.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6867.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6868.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6868.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6870.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6870.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6875.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6875.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6876.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6876.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6877.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6877.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6880.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6880.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6884.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6884.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6888.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6888.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6890.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6890.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6892.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6892.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6896.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6896.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6899.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6899.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6900.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6900.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6903.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6903.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6908.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6908.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6913.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6913.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6915.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6915.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6916.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6916.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6919.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6919.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6920.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6920.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6922.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6922.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6923.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6923.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6924.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6924.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6925.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6925.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6929.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6929.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6933.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6933.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6936.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6936.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6947.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6947.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6949.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6949.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6955.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6955.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6957.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6957.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6958.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6958.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6959.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6959.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6960.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6960.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6962.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6962.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6964.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6964.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6965.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6965.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6969.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6969.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6972.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6972.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6974.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6974.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6976.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6976.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6981.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6981.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6985.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6985.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6986.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6986.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6987.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6987.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6991.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6991.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6994.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6994.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6995.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6995.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_6999.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_6999.jpg'
+  },
+  {
+    title: '',
+    href: 'photos/2017/IMG_7001.jpg',
+    type: 'image/jpeg',
+    thumbnail: 'photos/2017/thumb/IMG_7001.jpg'
+  }
+];
