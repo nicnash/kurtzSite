@@ -16,8 +16,20 @@ $(function() {
 function openHome() {
   gotoPage('home');
 
+  $('#js-slogan').show();
+  $('#js-family').show();
+
   $('#js-slogan').text('Made Strong');
-  $('#js-familyReunionInfo').html('32nd Kurtz Family Reunion<br>' + 'Kasper Pavilian<br>' + 'July 21st 2017');
+  $('#js-familyReunionInfo').html(
+    '35nd Annual Kurtz Reunion<br>' +
+      '<a href="https://www.google.com/maps/place/65+Co+Rd+350,+Shiner,+TX+77984/@29.4533554,-97.1832184,158m/data=!3m2!1e3!4b1!4m5!3m4!1s0x86430f2a4c804261:0x27f5aa5a2926a80c!8m2!3d29.4533542!4d-97.1826712">Aurthur Kaspar Pavilion, Shiner Texas</a><br>' +
+      'July 21st 2018 (3rd Saturday)at 12:30pm<br>' +
+      'T-Shirts: natalierae82@gmail.com<br><br>' +
+      '<div class="contact">Questions: <br>' +
+      'Dinah Jackson: 713 459-7080 or djackson2008@att.net<br> ' +
+      'Sheryl Nash: 713 550-5300 or sherylnash@gmail.com<br></div>'
+  );
+  $('#js-extraInfo').html('<img class="anniversary-flyer" src="./img/35thAnniversaryFlyer.jpg">');
 }
 
 function openOurStory() {
@@ -35,7 +47,8 @@ function openPhotos() {
 
   $('#js-slogan').text('Photos');
   $('#js-familyReunionInfo').html(
-    '<p class="yearchoice" onclick="viewYear(2016)">2016</p>' +
+    '<p class="yearchoice" onclick="viewYear(2017)">2017</p>' +
+      '<p class="yearchoice" onclick="viewYear(2016)">2016</p>' +
       '<p class="yearchoice" onclick="viewYear(2015)">2015</p>' +
       '<p class="yearchoice" onclick="viewYear(2014)">2014</p>' +
       '<p class="yearchoice" onclick="viewYear(2013)">2013</p>' +
@@ -53,10 +66,10 @@ function gotoPage(page) {
 
   switch (page) {
     case 'photos':
-      window.history.pushState(stateObj, 'Photos Title', '/photos');
+      window.history.pushState(stateObj, 'Photos Title', '/#photos');
       break;
     case 'story':
-      window.history.pushState(stateObj, 'Story Title', '/story');
+      window.history.pushState(stateObj, 'Story Title', '/#story');
       break;
     default:
       window.history.pushState(stateObj, 'Home Title', '/');
@@ -89,8 +102,13 @@ function viewYear(year) {
       photos = photos2016;
       $('#js-slogan').text('' + year);
       break;
+    case 2017:
+      photos = photos2017;
+      $('#js-slogan').text('' + year);
+      break;
     default:
-      photos = photos2016
+      photos = photos2017
+        .concat(photos2016)
         .concat(photos2015)
         .concat(photos2014)
         .concat(photos2013)
@@ -2852,24 +2870,6 @@ var photos2016 = [
 ];
 
 var photos2017 = [
-  {
-    title: '',
-    href: 'photos/2016/July 2016 Darrel 310.JPG',
-    type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 310.jpg'
-  },
-  {
-    title: '',
-    href: 'photos/2016/July 2016 Darrel 311.JPG',
-    type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 311.jpg'
-  },
-  {
-    title: '',
-    href: 'photos/2016/July 2016 Darrel 312.JPG',
-    type: 'image/jpeg',
-    thumbnail: 'photos/2016/thumb/July 2016 Darrel 312.jpg'
-  },
   {
     title: '',
     href: 'photos/2017/IMG_3218.jpg',
