@@ -1,27 +1,27 @@
+$(function() {
+  var url = window.location.href;
+
+  switch (url) {
+    case 'http://localhost/#photos':
+      openPhotos();
+      break;
+    case 'http://localhost/#story':
+      openOurStory();
+      break;
+    default:
+      openHome();
+  }
+});
+
 function openHome() {
-  var linksContainer = $('#links');
-  linksContainer.html('');
-  $('#js-slogan').show();
-  $('#js-family').show();
+  gotoPage('home');
 
   $('#js-slogan').text('Made Strong');
-  $('#js-familyReunionInfo').html(
-    '35nd Annual Kurtz Reunion<br>' +
-      '<a href="https://www.google.com/maps/place/65+Co+Rd+350,+Shiner,+TX+77984/@29.4533554,-97.1832184,158m/data=!3m2!1e3!4b1!4m5!3m4!1s0x86430f2a4c804261:0x27f5aa5a2926a80c!8m2!3d29.4533542!4d-97.1826712">Aurthur Kaspar Pavilion, Shiner Texas</a><br>' +
-      'July 21st 2018 (3rd Saturday)at 12:30pm<br>' +
-      'T-Shirts: natalierae82@gmail.com<br><br>' +
-      '<div class="contact">Questions: <br>' +
-      'Dinah Jackson: 713 459-7080 or djackson2008@att.net<br> ' +
-      'Sheryl Nash: 713 550-5300 or sherylnash@gmail.com<br></div>'
-  );
-  $('#js-extraInfo').html('<img class="anniversary-flyer" src="./img/35thAnniversaryFlyer.jpg">');
+  $('#js-familyReunionInfo').html('32nd Kurtz Family Reunion<br>' + 'Kasper Pavilian<br>' + 'July 21st 2017');
 }
 
 function openOurStory() {
-  var linksContainer = $('#links');
-  linksContainer.html('');
-  $('#js-slogan').show();
-  $('#js-family').show();
+  gotoPage('story');
 
   $('#js-slogan').text('Our Story');
   $('#js-familyReunionInfo').html(
@@ -31,60 +31,72 @@ function openOurStory() {
 }
 
 function openPhotos() {
-  console.log('open!');
-  var linksContainer = $('#links');
-  linksContainer.html('');
-  $('#js-slogan').show();
-  $('#js-family').show();
+  gotoPage('photos');
 
   $('#js-slogan').text('Photos');
-  // viewYear(2015)
   $('#js-familyReunionInfo').html(
-    '<p class="yearchoice" onclick="viewYear(2017)">2017</p>' +
-      '<p class="yearchoice" onclick="viewYear(2016)">2016</p>' +
+    '<p class="yearchoice" onclick="viewYear(2016)">2016</p>' +
       '<p class="yearchoice" onclick="viewYear(2015)">2015</p>' +
       '<p class="yearchoice" onclick="viewYear(2014)">2014</p>' +
       '<p class="yearchoice" onclick="viewYear(2013)">2013</p>' +
       '<p class="yearchoice" onclick="viewYear(2012)">2012</p>' +
       '<p class="yearchoice" onclick="viewYear(1)">All</p>'
   );
+}
 
-  // $('html, body').animate({scrollTop:270}, 'fast')
+function gotoPage(page) {
+  var linksContainer = $('#links');
+  linksContainer.html('');
+  $('#js-slogan').show();
+  $('#js-family').show();
+  var stateObj = { page: page };
+
+  switch (page) {
+    case 'photos':
+      window.history.pushState(stateObj, 'Photos Title', '/photos');
+      break;
+    case 'story':
+      window.history.pushState(stateObj, 'Story Title', '/story');
+      break;
+    default:
+      window.history.pushState(stateObj, 'Home Title', '/');
+  }
 }
 
 function viewYear(year) {
   var photos;
+
   $('#js-family').hide();
 
-  if (year === 2012) {
-    photos = photos2012;
-    $('#js-slogan').text('2012');
-  } else if (year === 2013) {
-    photos = photos2013;
-    $('#js-slogan').text('2013');
-  } else if (year === 2014) {
-    photos = photos2014;
-    $('#js-slogan').text('2014');
-  } else if (year === 2015) {
-    photos = photos2015;
-    $('#js-slogan').text('2015');
-  } else if (year === 2016) {
-    photos = photos2016;
-    $('#js-slogan').text('2016');
-  } else if (year === 2017) {
-    photos = photos2017;
-    $('#js-slogan').text('2017');
-  } else {
-    photos = photos2017
-      .concat(photos2016)
-      .concat(photos2015)
-      .concat(photos2014)
-      .concat(photos2013)
-      .concat(photos2012);
-    $('#js-slogan').text('All Years');
+  switch (year) {
+    case 2012:
+      photos = photos2012;
+      $('#js-slogan').text('' + year);
+      break;
+    case 2013:
+      photos = photos2013;
+      $('#js-slogan').text('' + year);
+      break;
+    case 2014:
+      photos = photos2014;
+      $('#js-slogan').text('' + year);
+      break;
+    case 2015:
+      photos = photos2015;
+      $('#js-slogan').text('' + year);
+      break;
+    case 2016:
+      photos = photos2016;
+      $('#js-slogan').text('' + year);
+      break;
+    default:
+      photos = photos2016
+        .concat(photos2015)
+        .concat(photos2014)
+        .concat(photos2013)
+        .concat(photos2012);
+      $('#js-slogan').text('All Years');
   }
-
-  // $('html, body').animate({scrollTop:500}, 'medium')
 
   var linksContainer = $('#links');
   linksContainer.html('');
@@ -99,6 +111,25 @@ function viewYear(year) {
   });
 }
 
+//Google analytics
+(function(i, s, o, g, r, a, m) {
+  i['GoogleAnalyticsObject'] = r;
+  (i[r] =
+    i[r] ||
+    function() {
+      (i[r].q = i[r].q || []).push(arguments);
+    }),
+    (i[r].l = 1 * new Date());
+  (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+  a.async = 1;
+  a.src = g;
+  m.parentNode.insertBefore(a, m);
+})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+ga('create', 'UA-82538910-1', 'auto');
+ga('send', 'pageview');
+
+//Photo Data
 var photos2012 = [
   {
     title: '',

@@ -4,7 +4,7 @@ body {
   background-image: url('../img/concrete_seamless.png');
   /*background-size:cover;*/
   padding: 15px;
-  padding-bottom: 0px;
+  /*padding-bottom:0px;*/
   font-family: 'Old Standard TT', serif;
   font-size: 24px;
   color: brown;
